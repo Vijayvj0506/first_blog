@@ -1,0 +1,58 @@
+/* Custom CSS styles */
+body {
+  background-color: #f8f9fa; /* Light gray background color */
+  background-image: url('./photo_1.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: #007bff; /* Blue heading color */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Blue button background color */
+  border-color: #007bff; /* Blue button border color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3; /* Darker blue on hover */
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  transition: box-shadow 0.3s; /* Smooth transition on hover */
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow on hover */
+}
+
+.card img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  width: 100%; /* Make the input field responsive */
+  outline: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.form-control::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.4);
+}
